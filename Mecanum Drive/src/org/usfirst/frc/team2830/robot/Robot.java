@@ -45,7 +45,7 @@ public class Robot extends SampleRobot {
         	// This sample does not use field-oriented drive, so the gyro input is set to zero.
             robotDrive.mecanumDrive_Cartesian(stick.getX(), stick.getY(), stick.getZ(), 0);
             
-            Timer.delay(0.005);	// wait 5ms to avoid hogging CPU cycles
+            Timer.delay(0.0005);	// wait 5ms to avoid hogging CPU cycles
         }
     }
     
